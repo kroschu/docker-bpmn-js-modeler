@@ -1,4 +1,4 @@
-FROM node:8.9.4
+FROM resin/raspberry-pi-node
 
 RUN apt-get update -y
 WORKDIR /home/app
